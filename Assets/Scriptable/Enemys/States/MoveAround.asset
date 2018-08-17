@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2705f30c0ca840c283b772064cd29d2, type: 3}
+  m_Name: MoveAround
+  m_EditorClassIdentifier: 
+  ID: MoveAround
+  transitions:
+  - {fileID: 11400000, guid: e1aa3c068ff1d41a39b4cd4295a0c00c, type: 2}
+  - {fileID: 11400000, guid: 77d659d00f227470d823fe9cdf0a294d, type: 2}
+  - {fileID: 11400000, guid: a78df093b9ade4e9c84ddcf5750e8ef6, type: 2}
+  rotationSpeed: 1
+  minDistance: 0.3

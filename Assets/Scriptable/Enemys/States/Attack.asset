@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8b0641605a8c421588abc52eebc9be6, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: 
+  ID: Attack
+  transitions:
+  - {fileID: 11400000, guid: 2d103d8826b5349aea2022e888696ae5, type: 2}
+  - {fileID: 11400000, guid: 77d659d00f227470d823fe9cdf0a294d, type: 2}
+  CoolDown: 3
+  AttackTime: 1.5
