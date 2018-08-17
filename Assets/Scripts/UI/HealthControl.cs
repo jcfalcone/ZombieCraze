@@ -39,7 +39,6 @@ public class HealthControl : UIElement
 	public override void Init () 
 	{
 		this.updateUI = false;
-		this.totalHealthLabel.text = this.TotalHealthPlayer.value.ToString();
 	}
 	
 	// Update is called once per frame
@@ -64,6 +63,7 @@ public class HealthControl : UIElement
 
 	public void UpdateUI()
 	{
+		this.totalHealthLabel.text = this.TotalHealthPlayer.value.ToString();
 		this.updateUI = true;
 	}
 }
